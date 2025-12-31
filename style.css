@@ -600,7 +600,7 @@ a {
     }
 
     .logo {
-        height: 40px;
+        height: 80px;
 
     }
 
@@ -811,4 +811,5 @@ a {
         font-size: 14px;
         line-height: 1.6;
     }
+
 }
