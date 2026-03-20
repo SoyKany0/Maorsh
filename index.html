@@ -4,212 +4,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marosh</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile-style.css">
-
-    <!-- Fonts -->
+    <title>Marosh | Premium Arabic & Western Dining</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lilex:wght@100;300;500;700&family=Montserrat:wght@100;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="header fade-down">
-
-
+    <header class="header">
         <div class="left-section">
-            <div class="logo-container"><a href="#home"><img class="logo" src="Images/Marosh logo 2.PNG"
-                        alt="Marosh Logo"></div></a>
+            <a href="#home"><img class="logo" src="Images/Marosh logo 2.PNG" alt="Marosh"></a>
         </div>
-
-        <div class="middle-section">
-            <div><a href="#home" class="home-button">Home</a></div>
-            <div><a href="#about" class="about-button">About</a></div>
-            <div><a href="#menu" class="menu-button">Menu</a></div>
-            <div><a href="#contact" class="contact-button">Contact Us</a></div>
-        </div>
-
-
-
-    </div>
+        <nav class="middle-section">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
     <div id="home" class="marosh-image-container">
-        <img class="marosh-image" src="Images/Marosh picture.png" alt="restaurant image">
-
+        <img class="marosh-image" src="Images/Marosh picture.PNG" alt="Hero">
         <div class="hero-overlay"></div>
+        <div class="text-in-image-container">
+            <h1 class="text-in-image-1">Refined Flavors<br><span>Crafted for You</span></h1>
+            <p class="text-in-image-2">Authentic Heritage • Elegant Dining</p>
+        </div>
+    </div>
 
-        <div class="text-in-image-container fade-up">
-            <div class="text-in-image-1">
-                Premium Flavors<br>
-                <span>Crafted For You</span>
+    <section id="about">
+        <div
+            style="display: flex; flex-direction: row; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: center;">
+            <div class="intro-image-container">
+                <img src="Images/Kabab image.PNG" alt="Cuisine">
             </div>
-
-            <div class="text-in-image-2">Authentic taste • Elegant dining</div>
-
+            <div class="intro-container" style="max-width: 500px;">
+                <h1 class="section-title" style="text-align: left;">The Art of Dining</h1>
+                <p class="intro" style="font-size: 21px;">
+                    where flavors from around the world come together. We serve a delicious mix of Arabic and Western
+                    cuisine, perfectly crafted for every taste. Enjoy our premium shishas in an warm, inviting
+                    atmosphere that's perfect for relaxing with friends or family. At Marosh, every visit is more than a
+                    meal, it's an experience.
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
 
-
-
-    <div id="about" class="intro-image-section">
-        <div class="intro-image-container">
-            <img src="Images/Kabab image.png" alt="Kabab">
-        </div>
-
-        <div class="intro-container">
-
-            <h1 class=>Welcome to Marosh</h1>
-            <p class="intro">where flavors from around the world come
-                together. We serve a
-                delicious
-                mix of Arabic and Western cuisine, perfectly crafted for every taste. Enjoy our premium shishas in an
-                warm, inviting atmosphere that's perfect for relaxing with friends or family. At Marosh, every visit is
-                more than a meal, it's an experience.
-            </p>
-        </div>
-    </div>
-
-
-
-
-    <div class="gallery">
-
-        <h1>Gallery of Flavors</h1>
+    <section id="gallery" class="gallery">
+        <h1 class="section-title">Gallery</h1>
         <div class="gallery-images">
-            <div class="gallery-item stagger"><img src="Images/image 1.png" alt=""></div>
-            <div class="gallery-item stagger"><img src="Images/image 2.png" alt=""></div>
-            <div class="gallery-item stagger"><img src="Images/image 3.png" alt=""></div>
-            <div class="gallery-item stagger"><img src="Images/image 4.png" alt=""></div>
-            <div class="gallery-item stagger"><img src="Images/image 5.png" alt=""></div>
-            <div class="gallery-item stagger"><img src="Images/image 6.png" alt=""></div>
+            <div class="gallery-item"><img src="Images/image 1.jpeg" alt="1"></div>
+            <div class="gallery-item"><img src="Images/image 2.jpeg" alt="2"></div>
+            <div class="gallery-item"><img src="Images/image 3.jpeg" alt="3"></div>
+            <div class="gallery-item"><img src="Images/image 4.jpeg" alt="4"></div>
+            <div class="gallery-item"><img src="Images/image 5.jpeg" alt="5"></div>
+            <div class="gallery-item"><img src="Images/image 6.jpeg" alt="6"></div>
         </div>
-
-
-    </div>
-
-
-
+    </section>
 
     <section id="menu" class="marosh-menu">
-        <h2>Our Menu</h2>
-
+        <h1 class="section-title">Menu</h1>
         <div class="menu-pdf">
             <iframe src="Marosh menu.pdf"></iframe>
         </div>
     </section>
 
-
-
-
-
-    <div class="reviews">
-        <h1>What Our Guests Say</h1>
-
+    <section id="reviews" class="reviews">
+        <h1 class="section-title">Reviews</h1>
         <div class="reviews-grid">
-            <div class="review-card hover-rise fade-up">
-                <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-                <p class="review-text">
-                    tried their Chicken mandi.. it was excellent..
-                    and with it i was recommended a drink for the food to go with (pineapple-orange blend) and they are
-                    amazing together indeed.
-                    staffs are very polite and so accommodating! will definitely visit again when I come back to KL.
-
-                    Super!
-                </p>
-                <p class="review-name">— Daisy B.</p>
+            <div class="review-card">
+                <span class="stars">★★★★★</span>
+                <p>"tried their Chicken mandi.. it was excellent.. and with it i was recommended a drink for the food to
+                    go with (pineapple-orange blend) and they are amazing together indeed. staffs are very polite and so
+                    accommodating! will definitely visit again when I come back to KL. Super!"</p>
+                <div style="color: var(--gold); font-weight: 600; margin-top: 15px; font-size: 19px;">— Daisy B.</div>
             </div>
-
-            <div class="review-card hover-rise fade-up">
-                <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-                <p class="review-text">
-                    I recommend visiting this restaurant and enjoying the variety of food. It has a peaceful and
+            <div class="review-card">
+                <span class="stars">★★★★★</span>
+                <p>"I recommend visiting this restaurant and enjoying the variety of food. It has a peaceful and
                     pleasant atmosphere. I have probably been to over 20 Arabic restaurants before. This is one of the
-                    best. Be sure to order the grape-flavored Shisha and the Mandy lamb, which was excellent.
-                </p>
-                <p class="review-name">— Rahmatullah A. </p>
+                    best. Be sure to order the grape-flavored Shisha and the Mandy lamb, which was excellent."</p>
+                <div style="color: var(--gold); font-weight: 600; margin-top: 15px; font-size: 19px;">— Rahmatullah A.
+                </div>
             </div>
-
-            <div class="review-card hover-rise fade-up">
-                <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-                <p class="review-text">
-                    A very beautiful restaurant with excellent quality and variety of dishes. and the best shisha ever
+            <div class="review-card">
+                <span class="stars">★★★★★</span>
+                <p>"A very beautiful restaurant with excellent quality and variety of dishes. and the best shisha ever
                     They have wonderful employees, whose treatment is wonderful and whose service is perfect. I
-                    recommend visiting it.
-                </p>
-                <p class="review-name">— Mohamad D.</p>
+                    recommend visiting it."</p>
+                <div style="color: var(--gold); font-weight: 600; margin-top: 15px; font-size: 19px;">— Mohamad D.</div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-
-
-    <!-- Contact Us Section-->
-
-
-    <div id="contact" class="contact-section">
-        <h2>Contact Us</h2>
-
+    <section id="contact" class="contact-section">
+        <h1 class="section-title">Contact Us</h1>
         <div class="contact-cards">
-            <!-- Left Card -->
             <div class="contact-card">
                 <div class="info-row">
-                    <img class="location-icon" src="Images/Location Pin.png" alt="">
-                    <a
-                        href="https://www.google.com/maps/place/Marosh+Restaurant+%D9%85%D8%B7%D8%B9%D9%85+%D9%85%D8%B1%D9%88%D8%B4%E2%80%AD/@3.1447241,101.7083875,19z/data=!3m1!4b1!4m6!3m5!1s0x3..."
-                        <strong>Marosh Restaurant مطعم مروش</strong><br>
-                        R-002 Park, 55, Plaza Low Yat, Bukit Bintang Rd,<br>
-                        Bukit Bintang, 55100 Kuala Lumpur,<br>
-                        Wilayah Persekutuan
-                    </a>
+                    <img src="Images/Location Pin.png" alt="Loc">
+                    <p><strong>Marosh Restaurant</strong><br><a href="https://maps.app.goo.gl/YG5N9ycRTkKdvJ8HA">Plaza
+                            Low Yat, Bukit Bintang,<br>55100 Kuala Lumpur</a></p>
                 </div>
-
                 <div class="info-row">
-                    <img class="time-icon" src="Images/Time Icon.png" alt="">
-                    <p>Monday - Sunday 12:00PM - 2:00AM</p>
+                    <img src="Images/Time Icon.png" alt="Time">
+                    <p>Open Daily: 12:00PM - 2:00AM</p>
                 </div>
             </div>
-
-
-
-
-
-            <!-- Right Card -->
             <div class="contact-card">
                 <div class="info-row">
-                    <img class="phone-icon" src="Images/Phone Icon.png" alt="">
-                    <a href="">011-7004 9107</a>
+                    <img src="Images/Phone Icon.png" alt="Tel">
+                    <a href="tel:+601170049107">011-7004 9107</a>
                 </div>
-
                 <div class="info-row">
-                    <img class="whatsapp-icon" src="Images/Whatsapp Icon.png" alt="">
+                    <img src="Images/Whatsapp Icon.png" alt="Tel">
                     <a href="https://wa.me/601170049107">011-7004 9107</a>
                 </div>
 
                 <div class="info-row">
-                    <img class="instagram-icon" src="Images/Instagram Icon.png" alt="">
+                    <img src="Images/Instagram Icon.png" alt="IG">
                     <a href="https://www.instagram.com/marosh_restaurant">@marosh_restaurant</a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-
-
-    <footer class="copyright-footer">
-        <p>
-            © 2026 Marosh Restaurant. All Rights Reserved.
-        </p>
+    <footer style="padding: 40px; text-align: center; font-size: 11px; letter-spacing: 2px; color: var(--text-dim);">
+        <p>© 2026 MAROSH RESTAURANT. ALL RIGHTS RESERVED.</p>
     </footer>
 
 </body>
-
-
 
 </html>
